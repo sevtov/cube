@@ -3,31 +3,31 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 192,
+      "count": 384,
       "max": [
-        14.142132759094238,
-        14.14213752746582,
-        30.497611999511719
+        635,
+        635,
+        635
       ],
       "min": [
-        -19.999998092651367,
-        -14.142132759094238,
+        0,
+        0,
         0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
-      "byteOffset": 2304,
+      "byteOffset": 4608,
       "componentType": 5126,
-      "count": 192,
+      "count": 384,
       "max": [
-        0.85355353355407715,
         1,
-        0.70710718631744385
+        1,
+        1
       ],
       "min": [
-        -0.8535536527633667,
+        -1,
         -1,
         -1
       ],
@@ -36,38 +36,38 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 336,
+      "count": 1008,
       "max": [
-        191
+        383
       ],
       "min": [
-        28
+        0
       ],
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Microsoft (https://sketchfab.com/microsoft)",
+      "author": "eBroms (https://sketchfab.com/eBroms)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/703b60b843904bf7aecfcb71b91318be",
-      "title": "Impossible Cube"
+      "source": "https://sketchfab.com/models/c5ed17ab45a249aebe07195ac4624efe",
+      "title": "Open Cube"
     },
-    "generator": "Sketchfab-3.29.3",
+    "generator": "Sketchfab-3.18.7",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 1344,
+      "byteLength": 4032,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 4608,
-      "byteOffset": 1344,
+      "byteLength": 9216,
+      "byteOffset": 4032,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -75,7 +75,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 5952,
+      "byteLength": 13248,
       "uri": "scene.bin"
     }
   ],
@@ -90,9 +90,9 @@
       "name": "Scene_-_Root",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.70813052889999994,
-          0.14328810480000001,
-          0.77335166720000004,
+          1,
+          1,
+          1,
           1
         ],
         "metallicFactor": 0,
@@ -132,31 +132,31 @@
       "children": [
         2
       ],
-      "matrix": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        -1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
       "name": "RootNode (model correction matrix)"
     },
     {
       "children": [
         3
       ],
-      "name": "cd308ca4b0f644819040938e0d77dee0.stl.cleaner"
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -317.5,
+        -317.5,
+        -317.5,
+        1
+      ],
+      "name": "2434111465ad4e88a2ad01cbe8b569f6.stl.cleaner.gles"
     },
     {
       "mesh": 0,
