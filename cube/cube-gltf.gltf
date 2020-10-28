@@ -21,22 +21,8 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "emissiveFactor" : [
-                0,
-                0,
-                0
-            ],
             "name" : "Material.001",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.9822508692741394,
-                    0.5711250305175781,
-                    0.10224176198244095,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0
-            }
+            "pbrMetallicRoughness" : {}
         }
     ],
     "meshes" : [
