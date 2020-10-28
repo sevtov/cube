@@ -18,13 +18,6 @@
             "name" : "Cube"
         }
     ],
-    "materials" : [
-        {
-            "doubleSided" : true,
-            "name" : "Material.001",
-            "pbrMetallicRoughness" : {}
-        }
-    ],
     "meshes" : [
         {
             "name" : "Cube",
@@ -34,8 +27,7 @@
                         "POSITION" : 0,
                         "NORMAL" : 1
                     },
-                    "indices" : 2,
-                    "material" : 0
+                    "indices" : 2
                 }
             ]
         }
