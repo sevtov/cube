@@ -15,30 +15,19 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Cube",
-            "scale" : [
-                1,
-                0.10000002384185791,
-                1
-            ],
-            "translation" : [
-                0,
-                -0.0013622045516967773,
-                0
-            ]
+            "name" : "Cube"
         }
     ],
     "meshes" : [
         {
-            "name" : "Cube.001",
+            "name" : "Cube",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
-                        "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "NORMAL" : 1
                     },
-                    "indices" : 3
+                    "indices" : 2
                 }
             ]
         }
@@ -47,33 +36,27 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 192,
+            "count" : 288,
             "max" : [
-                1,
-                9.96546745300293,
-                1
+                1.4142135381698608,
+                1.6303114891052246,
+                1.7320318222045898
             ],
             "min" : [
-                -1,
-                -9.96546745300293,
-                -1
+                -1.4142135381698608,
+                -1.6303117275238037,
+                -1.732032299041748
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 192,
+            "count" : 288,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
-            "componentType" : 5126,
-            "count" : 192,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 3,
             "componentType" : 5123,
             "count" : 432,
             "type" : "SCALAR"
@@ -82,29 +65,24 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 2304,
+            "byteLength" : 3456,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 2304,
-            "byteOffset" : 2304
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1536,
-            "byteOffset" : 4608
+            "byteLength" : 3456,
+            "byteOffset" : 3456
         },
         {
             "buffer" : 0,
             "byteLength" : 864,
-            "byteOffset" : 6144
+            "byteOffset" : 6912
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 7008,
-            "uri" : "cube.bin"
+            "byteLength" : 7776,
+            "uri" : "cube-gltf.bin"
         }
     ]
 }
