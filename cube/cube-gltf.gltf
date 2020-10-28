@@ -18,6 +18,27 @@
             "name" : "Cube"
         }
     ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
     "meshes" : [
         {
             "name" : "Cube",
@@ -27,7 +48,8 @@
                         "POSITION" : 0,
                         "NORMAL" : 1
                     },
-                    "indices" : 2
+                    "indices" : 2,
+                    "material" : 0
                 }
             ]
         }
