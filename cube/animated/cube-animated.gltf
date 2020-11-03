@@ -130,7 +130,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1632,
+            "count" : 1026,
             "max" : [
                 1.4100713729858398,
                 1.6234214305877686,
@@ -146,19 +146,19 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1632,
+            "count" : 1026,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1632,
+            "count" : 1026,
             "type" : "VEC4"
         },
         {
             "bufferView" : 3,
             "componentType" : 5126,
-            "count" : 1632,
+            "count" : 1026,
             "type" : "VEC2"
         },
         {
@@ -201,53 +201,53 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 19584,
+            "byteLength" : 12312,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 19584,
-            "byteOffset" : 19584
+            "byteLength" : 12312,
+            "byteOffset" : 12312
         },
         {
             "buffer" : 0,
-            "byteLength" : 26112,
-            "byteOffset" : 39168
+            "byteLength" : 16416,
+            "byteOffset" : 24624
         },
         {
             "buffer" : 0,
-            "byteLength" : 13056,
-            "byteOffset" : 65280
+            "byteLength" : 8208,
+            "byteOffset" : 41040
         },
         {
             "buffer" : 0,
             "byteLength" : 4896,
-            "byteOffset" : 78336
+            "byteOffset" : 49248
         },
         {
             "buffer" : 0,
             "byteLength" : 1280,
-            "byteOffset" : 83232
+            "byteOffset" : 54144
         },
         {
             "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 84512
+            "byteOffset" : 55424
         },
         {
             "buffer" : 0,
             "byteLength" : 5120,
-            "byteOffset" : 88352
+            "byteOffset" : 59264
         },
         {
             "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 93472
+            "byteOffset" : 64384
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 97312,
+            "byteLength" : 68224,
             "uri" : "cube-animated.bin"
         }
     ]
