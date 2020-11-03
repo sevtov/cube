@@ -111,15 +111,15 @@
             "extras" : {
                 "glTF2ExportSettings" : {
                     "export_animations" : 1,
-                    "export_apply" : 1,
-                    "export_colors" : 1,
+                    "export_apply" : 0,
+                    "export_colors" : 0,
                     "export_extras" : 1,
                     "export_format" : "GLTF_SEPARATE",
                     "export_lights" : 1,
                     "export_materials" : 1,
                     "export_morph" : 0,
                     "export_skins" : 0,
-                    "export_tangents" : 1,
+                    "export_tangents" : 0,
                     "export_texcoords" : 1,
                     "export_texture_dir" : "",
                     "export_yup" : 1,
@@ -137,11 +137,10 @@
         {
             "mesh" : 0,
             "name" : "Cube",
-            "rotation" : [
-                0.1736481636762619,
+            "translation" : [
                 0,
-                0,
-                0.9848078489303589
+                -0.0009631342254579067,
+                -0.0008251725230365992
             ]
         },
         {
@@ -165,8 +164,8 @@
             "name" : "Point.001",
             "translation" : [
                 2.3545303344726562,
-                1.3237015008926392,
-                0.6000000238418579
+                1.3237017393112183,
+                0.6000001430511475
             ]
         },
         {
@@ -190,8 +189,8 @@
             "name" : "Point.002",
             "translation" : [
                 -2.277458429336548,
-                1.3853589296340942,
-                0.6000000238418579
+                1.3853591680526733,
+                0.6000001430511475
             ]
         },
         {
@@ -216,7 +215,7 @@
             "translation" : [
                 0,
                 2.4316020011901855,
-                -0.5838122367858887
+                -0.5838123559951782
             ]
         },
         {
@@ -240,8 +239,8 @@
             "name" : "Point.004",
             "translation" : [
                 0,
-                -2.292872905731201,
-                0.7071270942687988
+                -2.2928731441497803,
+                0.7071272134780884
             ]
         },
         {
@@ -265,8 +264,8 @@
             "name" : "Point.005",
             "translation" : [
                 0,
-                0.1387292593717575,
-                2.539116144180298
+                0.1387292742729187,
+                2.539116382598877
             ]
         },
         {
@@ -290,8 +289,8 @@
             "name" : "Point.006",
             "translation" : [
                 0,
-                -0.03082869201898575,
-                -2.6932597160339355
+                -0.03082871437072754,
+                -2.6932599544525146
             ]
         },
         {
@@ -315,8 +314,8 @@
             "name" : "Point.007",
             "translation" : [
                 2.3237016201019287,
-                -1.3387292623519897,
-                -0.8229281902313232
+                -1.3387293815612793,
+                -0.8229283094406128
             ]
         },
         {
@@ -340,8 +339,8 @@
             "name" : "Point.008",
             "translation" : [
                 -2.2003867626190186,
-                -1.3387292623519897,
-                -0.8999999761581421
+                -1.3387293815612793,
+                -0.9000000357627869
             ]
         },
         {
@@ -371,10 +370,16 @@
                 17
             ],
             "name" : "Point",
+            "rotation" : [
+                -0.1736481785774231,
+                0,
+                0,
+                0.9848078489303589
+            ],
             "translation" : [
                 0,
-                -0.005642920732498169,
-                0.004637032747268677
+                -0.004679786507040262,
+                0.005462205037474632
             ]
         }
     ],
@@ -406,19 +411,19 @@
             "name" : "CubeAction",
             "samplers" : [
                 {
-                    "input" : 5,
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 5
+                },
+                {
+                    "input" : 4,
                     "interpolation" : "LINEAR",
                     "output" : 6
                 },
                 {
-                    "input" : 5,
+                    "input" : 4,
                     "interpolation" : "LINEAR",
                     "output" : 7
-                },
-                {
-                    "input" : 5,
-                    "interpolation" : "LINEAR",
-                    "output" : 8
                 }
             ]
         },
@@ -449,19 +454,19 @@
             "name" : "PointAction",
             "samplers" : [
                 {
-                    "input" : 5,
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 8
+                },
+                {
+                    "input" : 4,
                     "interpolation" : "LINEAR",
                     "output" : 9
                 },
                 {
-                    "input" : 5,
+                    "input" : 4,
                     "interpolation" : "LINEAR",
                     "output" : 10
-                },
-                {
-                    "input" : 5,
-                    "interpolation" : "LINEAR",
-                    "output" : 11
                 }
             ]
         }
@@ -495,10 +500,9 @@
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TANGENT" : 2,
-                        "TEXCOORD_0" : 3
+                        "TEXCOORD_0" : 2
                     },
-                    "indices" : 4,
+                    "indices" : 3,
                     "material" : 0
                 }
             ]
@@ -508,7 +512,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 211,
+            "count" : 196,
             "max" : [
                 1.4142135381698608,
                 1.6303118467330933,
@@ -524,29 +528,23 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 211,
+            "count" : 196,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 211,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 3,
-            "componentType" : 5126,
-            "count" : 211,
+            "count" : 196,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 4,
+            "bufferView" : 3,
             "componentType" : 5123,
             "count" : 432,
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 5,
+            "bufferView" : 4,
             "componentType" : 5126,
             "count" : 320,
             "max" : [
@@ -558,16 +556,22 @@
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 6,
+            "bufferView" : 5,
             "componentType" : 5126,
             "count" : 320,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 7,
+            "bufferView" : 6,
             "componentType" : 5126,
             "count" : 320,
             "type" : "VEC4"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 320,
+            "type" : "VEC3"
         },
         {
             "bufferView" : 8,
@@ -579,16 +583,10 @@
             "bufferView" : 9,
             "componentType" : 5126,
             "count" : 320,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 10,
-            "componentType" : 5126,
-            "count" : 320,
             "type" : "VEC4"
         },
         {
-            "bufferView" : 11,
+            "bufferView" : 10,
             "componentType" : 5126,
             "count" : 320,
             "type" : "VEC3"
@@ -597,68 +595,63 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 2532,
+            "byteLength" : 2352,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 2532,
-            "byteOffset" : 2532
+            "byteLength" : 2352,
+            "byteOffset" : 2352
         },
         {
             "buffer" : 0,
-            "byteLength" : 3376,
-            "byteOffset" : 5064
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1688,
-            "byteOffset" : 8440
+            "byteLength" : 1568,
+            "byteOffset" : 4704
         },
         {
             "buffer" : 0,
             "byteLength" : 864,
-            "byteOffset" : 10128
+            "byteOffset" : 6272
         },
         {
             "buffer" : 0,
             "byteLength" : 1280,
-            "byteOffset" : 10992
+            "byteOffset" : 7136
         },
         {
             "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 12272
+            "byteOffset" : 8416
         },
         {
             "buffer" : 0,
             "byteLength" : 5120,
-            "byteOffset" : 16112
+            "byteOffset" : 12256
         },
         {
             "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 21232
+            "byteOffset" : 17376
         },
         {
             "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 25072
+            "byteOffset" : 21216
         },
         {
             "buffer" : 0,
             "byteLength" : 5120,
-            "byteOffset" : 28912
+            "byteOffset" : 25056
         },
         {
             "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 34032
+            "byteOffset" : 30176
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 37872,
+            "byteLength" : 34016,
             "uri" : "cube-animated.bin"
         }
     ]
