@@ -3,123 +3,19 @@
         "generator" : "Khronos glTF Blender I/O v1.3.48",
         "version" : "2.0"
     },
-    "extensionsUsed" : [
-        "KHR_lights_punctual"
-    ],
-    "extensionsRequired" : [
-        "KHR_lights_punctual"
-    ],
-    "extensions" : {
-        "KHR_lights_punctual" : {
-            "lights" : [
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.001"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.002"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.003"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.004"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.005"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.006"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.007"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.008"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 100,
-                    "type" : "point",
-                    "name" : "Point"
-                }
-            ]
-        }
-    },
     "scene" : 0,
     "scenes" : [
         {
             "extras" : {
                 "glTF2ExportSettings" : {
                     "export_animations" : 1,
-                    "export_apply" : 0,
-                    "export_colors" : 1,
+                    "export_apply" : 1,
+                    "export_colors" : 0,
                     "export_extras" : 1,
                     "export_format" : "GLTF_SEPARATE",
-                    "export_frame_step" : 1,
-                    "export_lights" : 1,
+                    "export_lights" : 0,
                     "export_materials" : 1,
                     "export_morph" : 0,
-                    "export_normals" : 0,
                     "export_skins" : 0,
                     "export_tangents" : 0,
                     "export_texcoords" : 0,
@@ -131,7 +27,7 @@
             "name" : "Scene",
             "nodes" : [
                 0,
-                18
+                9
             ]
         }
     ],
@@ -141,23 +37,6 @@
             "name" : "Cube"
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Point.001_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                1
-            ],
             "name" : "Point.001",
             "translation" : [
                 2.3545303344726562,
@@ -166,23 +45,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 1
-                }
-            },
-            "name" : "Point.002_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                3
-            ],
             "name" : "Point.002",
             "translation" : [
                 -2.277458429336548,
@@ -191,23 +53,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 2
-                }
-            },
-            "name" : "Point.003_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                5
-            ],
             "name" : "Point.003",
             "translation" : [
                 0,
@@ -216,23 +61,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 3
-                }
-            },
-            "name" : "Point.004_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                7
-            ],
             "name" : "Point.004",
             "translation" : [
                 0,
@@ -241,23 +69,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 4
-                }
-            },
-            "name" : "Point.005_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                9
-            ],
             "name" : "Point.005",
             "translation" : [
                 0,
@@ -266,23 +77,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 5
-                }
-            },
-            "name" : "Point.006_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                11
-            ],
             "name" : "Point.006",
             "translation" : [
                 0,
@@ -291,23 +85,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 6
-                }
-            },
-            "name" : "Point.007_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                13
-            ],
             "name" : "Point.007",
             "translation" : [
                 2.3237016201019287,
@@ -316,23 +93,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 7
-                }
-            },
-            "name" : "Point.008_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                15
-            ],
             "name" : "Point.008",
             "translation" : [
                 -2.2003867626190186,
@@ -341,30 +101,15 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 8
-                }
-            },
-            "name" : "Point_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
             "children" : [
+                1,
                 2,
+                3,
                 4,
+                5,
                 6,
-                8,
-                10,
-                12,
-                14,
-                16,
-                17
+                7,
+                8
             ],
             "name" : "Point",
             "translation" : [
@@ -380,21 +125,21 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 18,
+                        "node" : 9,
                         "path" : "translation"
                     }
                 },
                 {
                     "sampler" : 1,
                     "target" : {
-                        "node" : 18,
+                        "node" : 9,
                         "path" : "rotation"
                     }
                 },
                 {
                     "sampler" : 2,
                     "target" : {
-                        "node" : 18,
+                        "node" : 9,
                         "path" : "scale"
                     }
                 }
@@ -402,42 +147,21 @@
             "name" : "PointAction",
             "samplers" : [
                 {
-                    "input" : 2,
-                    "interpolation" : "LINEAR",
-                    "output" : 3
-                },
-                {
-                    "input" : 2,
+                    "input" : 3,
                     "interpolation" : "LINEAR",
                     "output" : 4
                 },
                 {
-                    "input" : 2,
+                    "input" : 3,
                     "interpolation" : "LINEAR",
                     "output" : 5
+                },
+                {
+                    "input" : 3,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
                 }
             ]
-        }
-    ],
-    "materials" : [
-        {
-            "doubleSided" : true,
-            "emissiveFactor" : [
-                0,
-                0,
-                0
-            ],
-            "name" : "Material.001",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.9822508692741394,
-                    0.5711250305175781,
-                    0.10224176198244095,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5045454502105713
-            }
         }
     ],
     "meshes" : [
@@ -446,10 +170,10 @@
             "primitives" : [
                 {
                     "attributes" : {
-                        "POSITION" : 0
+                        "POSITION" : 0,
+                        "NORMAL" : 1
                     },
-                    "indices" : 1,
-                    "material" : 0
+                    "indices" : 2
                 }
             ]
         }
@@ -458,7 +182,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 64,
+            "count" : 192,
             "max" : [
                 1.4142135381698608,
                 1.6303118467330933,
@@ -473,12 +197,18 @@
         },
         {
             "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 192,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
             "componentType" : 5123,
             "count" : 432,
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 2,
+            "bufferView" : 3,
             "componentType" : 5126,
             "count" : 320,
             "max" : [
@@ -490,19 +220,19 @@
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 3,
+            "bufferView" : 4,
             "componentType" : 5126,
             "count" : 320,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 4,
+            "bufferView" : 5,
             "componentType" : 5126,
             "count" : 320,
             "type" : "VEC4"
         },
         {
-            "bufferView" : 5,
+            "bufferView" : 6,
             "componentType" : 5126,
             "count" : 320,
             "type" : "VEC3"
@@ -511,38 +241,43 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 768,
+            "byteLength" : 2304,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
+            "byteLength" : 2304,
+            "byteOffset" : 2304
+        },
+        {
+            "buffer" : 0,
             "byteLength" : 864,
-            "byteOffset" : 768
+            "byteOffset" : 4608
         },
         {
             "buffer" : 0,
             "byteLength" : 1280,
-            "byteOffset" : 1632
+            "byteOffset" : 5472
         },
         {
             "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 2912
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5120,
             "byteOffset" : 6752
         },
         {
             "buffer" : 0,
+            "byteLength" : 5120,
+            "byteOffset" : 10592
+        },
+        {
+            "buffer" : 0,
             "byteLength" : 3840,
-            "byteOffset" : 11872
+            "byteOffset" : 15712
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 15712,
+            "byteLength" : 19552,
             "uri" : "cube-animated.bin"
         }
     ]
