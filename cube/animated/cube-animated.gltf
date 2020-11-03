@@ -3,115 +3,12 @@
         "generator" : "Khronos glTF Blender I/O v1.3.48",
         "version" : "2.0"
     },
-    "extensionsUsed" : [
-        "KHR_lights_punctual"
-    ],
-    "extensionsRequired" : [
-        "KHR_lights_punctual"
-    ],
-    "extensions" : {
-        "KHR_lights_punctual" : {
-            "lights" : [
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.001"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.002"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.003"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.004"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.005"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.006"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.007"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 50,
-                    "type" : "point",
-                    "name" : "Point.008"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 100,
-                    "type" : "point",
-                    "name" : "Point"
-                }
-            ]
-        }
-    },
     "scene" : 0,
     "scenes" : [
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                18
+                0
             ]
         }
     ],
@@ -123,333 +20,6 @@
                 0,
                 -0.0009631342254579067,
                 -0.0008251725230365992
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Point.001_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                1
-            ],
-            "name" : "Point.001",
-            "translation" : [
-                2.3545303344726562,
-                1.3237017393112183,
-                0.6000001430511475
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 1
-                }
-            },
-            "name" : "Point.002_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                3
-            ],
-            "name" : "Point.002",
-            "translation" : [
-                -2.277458429336548,
-                1.3853591680526733,
-                0.6000001430511475
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 2
-                }
-            },
-            "name" : "Point.003_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                5
-            ],
-            "name" : "Point.003",
-            "translation" : [
-                0,
-                2.4316020011901855,
-                -0.5838123559951782
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 3
-                }
-            },
-            "name" : "Point.004_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                7
-            ],
-            "name" : "Point.004",
-            "translation" : [
-                0,
-                -2.2928731441497803,
-                0.7071272134780884
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 4
-                }
-            },
-            "name" : "Point.005_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                9
-            ],
-            "name" : "Point.005",
-            "translation" : [
-                0,
-                0.1387292742729187,
-                2.539116382598877
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 5
-                }
-            },
-            "name" : "Point.006_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                11
-            ],
-            "name" : "Point.006",
-            "translation" : [
-                0,
-                -0.03082871437072754,
-                -2.6932599544525146
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 6
-                }
-            },
-            "name" : "Point.007_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                13
-            ],
-            "name" : "Point.007",
-            "translation" : [
-                2.3237016201019287,
-                -1.3387293815612793,
-                -0.8229283094406128
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 7
-                }
-            },
-            "name" : "Point.008_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                15
-            ],
-            "name" : "Point.008",
-            "translation" : [
-                -2.2003867626190186,
-                -1.3387293815612793,
-                -0.9000000357627869
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 8
-                }
-            },
-            "name" : "Point_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                2,
-                4,
-                6,
-                8,
-                10,
-                12,
-                14,
-                16,
-                17
-            ],
-            "name" : "Point",
-            "rotation" : [
-                -0.1736481785774231,
-                0,
-                0,
-                0.9848078489303589
-            ],
-            "translation" : [
-                0,
-                -0.004679786507040262,
-                0.005462205037474632
-            ]
-        }
-    ],
-    "animations" : [
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "CubeAction",
-            "samplers" : [
-                {
-                    "input" : 3,
-                    "interpolation" : "LINEAR",
-                    "output" : 4
-                },
-                {
-                    "input" : 3,
-                    "interpolation" : "LINEAR",
-                    "output" : 5
-                },
-                {
-                    "input" : 3,
-                    "interpolation" : "LINEAR",
-                    "output" : 6
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 18,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 18,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 18,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "PointAction",
-            "samplers" : [
-                {
-                    "input" : 3,
-                    "interpolation" : "LINEAR",
-                    "output" : 7
-                },
-                {
-                    "input" : 3,
-                    "interpolation" : "LINEAR",
-                    "output" : 8
-                },
-                {
-                    "input" : 3,
-                    "interpolation" : "LINEAR",
-                    "output" : 9
-                }
             ]
         }
     ],
@@ -493,135 +63,52 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 192,
+            "count" : 1632,
             "max" : [
-                1.4142135381698608,
-                1.6303118467330933,
-                1.732032060623169
+                1.4100713729858398,
+                1.6234214305877686,
+                1.7247116565704346
             ],
             "min" : [
-                -1.4142135381698608,
-                -1.630311369895935,
-                -1.732032060623169
+                -1.4100713729858398,
+                -1.6234208345413208,
+                -1.7247116565704346
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 192,
+            "count" : 1632,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5123,
-            "count" : 432,
+            "count" : 2448,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 3,
-            "componentType" : 5126,
-            "count" : 320,
-            "max" : [
-                10.666666666666666
-            ],
-            "min" : [
-                0.03333333333333333
-            ],
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 320,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 320,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 320,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 7,
-            "componentType" : 5126,
-            "count" : 320,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 8,
-            "componentType" : 5126,
-            "count" : 320,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 9,
-            "componentType" : 5126,
-            "count" : 320,
-            "type" : "VEC3"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 2304,
+            "byteLength" : 19584,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 2304,
-            "byteOffset" : 2304
+            "byteLength" : 19584,
+            "byteOffset" : 19584
         },
         {
             "buffer" : 0,
-            "byteLength" : 864,
-            "byteOffset" : 4608
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1280,
-            "byteOffset" : 5472
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3840,
-            "byteOffset" : 6752
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5120,
-            "byteOffset" : 10592
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3840,
-            "byteOffset" : 15712
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3840,
-            "byteOffset" : 19552
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5120,
-            "byteOffset" : 23392
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3840,
-            "byteOffset" : 28512
+            "byteLength" : 4896,
+            "byteOffset" : 39168
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 32352,
+            "byteLength" : 44064,
             "uri" : "cube-animated.bin"
         }
     ]
