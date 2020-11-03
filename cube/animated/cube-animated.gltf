@@ -51,9 +51,10 @@
                 {
                     "attributes" : {
                         "POSITION" : 0,
-                        "NORMAL" : 1
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
                     },
-                    "indices" : 2,
+                    "indices" : 3,
                     "material" : 0
                 }
             ]
@@ -84,6 +85,12 @@
         },
         {
             "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1632,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
             "componentType" : 5123,
             "count" : 2448,
             "type" : "SCALAR"
@@ -102,13 +109,18 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 4896,
+            "byteLength" : 13056,
             "byteOffset" : 39168
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4896,
+            "byteOffset" : 52224
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 44064,
+            "byteLength" : 57120,
             "uri" : "cube-animated.bin"
         }
     ]
