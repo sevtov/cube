@@ -23,6 +23,51 @@
             ]
         }
     ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "CubeAction",
+            "samplers" : [
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 5
+                },
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
+                },
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 7
+                }
+            ]
+        }
+    ],
     "materials" : [
         {
             "doubleSided" : true,
@@ -52,7 +97,7 @@
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "TANGENT" : 2
                     },
                     "indices" : 3,
                     "material" : 0
@@ -87,13 +132,43 @@
             "bufferView" : 2,
             "componentType" : 5126,
             "count" : 1632,
-            "type" : "VEC2"
+            "type" : "VEC4"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
             "count" : 2448,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 320,
+            "max" : [
+                10.666666666666666
+            ],
+            "min" : [
+                0.03333333333333333
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 320,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 320,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 320,
+            "type" : "VEC3"
         }
     ],
     "bufferViews" : [
@@ -109,18 +184,38 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 13056,
+            "byteLength" : 26112,
             "byteOffset" : 39168
         },
         {
             "buffer" : 0,
             "byteLength" : 4896,
-            "byteOffset" : 52224
+            "byteOffset" : 65280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1280,
+            "byteOffset" : 70176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3840,
+            "byteOffset" : 71456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5120,
+            "byteOffset" : 75296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3840,
+            "byteOffset" : 80416
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 57120,
+            "byteLength" : 84256,
             "uri" : "cube-animated.bin"
         }
     ]
